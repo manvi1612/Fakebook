@@ -41,3 +41,82 @@ body {
   height: 40px;
   cursor: pointer;
 }
+
+main {
+  max-width: 500px;
+  margin: 20px auto; 
+}
+
+.post-form {
+  background: rgb(57, 56, 56);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.post-form textarea {
+  padding: 10px;
+  background-color: rgb(110, 110, 110);
+}
+
+.upload-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.upload-section img {
+  width: 30px;
+  cursor: pointer;
+
+}
+
+#postImage {
+  display: none;
+}
+
+#fileName {
+  font-size: 15px;
+  color: rgb(112, 110, 110);
+}
+
+#postbtn {
+  margin-left: auto;
+  padding: 8px 15px;
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#postbtn:hover {
+  background: #104bc8;
+}
+
+.posts {
+  margin-top: 20px;
+}
+
+.post {
+  background: rgb(52, 51, 51);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+}
+
+.post-header img {
+  border-radius: 100%;
+  margin-right: 10px;
+  height: 50px;
+}
+
+.post img.post-image {
+  width: 80%;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-left: 60px;
+}
