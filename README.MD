@@ -1,7 +1,6 @@
 # Fakebook Assignment
 
 ## About the Project
-## About the Project
 This project is a basic social media style webpage. It lets users create posts by writing text, uploading an image, or both. The purpose of this assignment is to practice JavaScript, especially working with the DOM and using classes to organize code.
 
 
